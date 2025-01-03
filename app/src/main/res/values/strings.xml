@@ -1,3 +1,138 @@
 <resources>
-    <string name="app_name">F1 Biography</string>
+    <string name="app_name">F1 Driver Biography</string>
+
+    <string name="drivers_name">Name</string>
+    <string name="drivers_born">Born</string>
+    <string name="drivers_nationality">Nationality</string>
+    <string name="drivers_team">Team</string>
+    <string name="drivers_car_number">Car Number</string>
+    <string name="drivers_wins_count">Wins</string>
+    <string name="drivers_podiums_count">Podiums</string>
+    <string name="drivers_descriptions">Descriptions</string>
+
+    <!--  Driver Name  -->
+    <string-array name="drivers_name_list">
+        <item>Lando Norris</item>
+        <item>Carlos Sainz Jr.</item>
+        <item>Charles Leclerc</item>
+        <item>Lewis Hamilton</item>
+        <item>George Russell</item>
+        <item>Max Verstappen</item>
+        <item>Oscar Piastri</item>
+        <item>Yuki Tsunoda</item>
+        <item>Sergio Pérez</item>
+        <item>Zhou Guanyu</item>
+    </string-array>
+
+    <!--  Driver Born  -->
+    <string-array name="drivers_born_list">
+        <item>13 November 1999 (25)</item>
+        <item>1 September 1994 (30)</item>
+        <item>16 October 1997 (27)</item>
+        <item>7 January 1985 (39)</item>
+        <item>15 February 1998 (26)</item>
+        <item>30 September 1997 (27)</item>
+        <item>06 April 2001 (23)</item>
+        <item>11 May 2000 (24)</item>
+        <item>26 January 1990 (34)</item>
+        <item>30 May 1999 (25)</item>
+    </string-array>
+
+    <!--  Driver Nationality  -->
+    <string-array name="drivers_nationality_list">
+        <item>British</item>
+        <item>Spanish</item>
+        <item>Monégasque</item>
+        <item>British</item>
+        <item>British</item>
+        <item>Dutch</item>
+        <item>Australian</item>
+        <item>Japanese</item>
+        <item>Mexican</item>
+        <item>Chinese</item>
+    </string-array>
+
+    <!--  Driver Team  -->
+    <string-array name="drivers_team_list">
+        <item>McLaren</item>
+        <item>Ferrari</item>
+        <item>Ferrari</item>
+        <item>Mercedes</item>
+        <item>Mercedes</item>
+        <item>Red Bull</item>
+        <item>McLaren</item>
+        <item>Red Bull</item>
+        <item>Red Bull</item>
+        <item>Alfa Romeo</item>
+    </string-array>
+
+    <!--  Driver Car Number  -->
+    <integer-array name="drivers_car_number_list">
+        <item>4</item>
+        <item>55</item>
+        <item>16</item>
+        <item>44</item>
+        <item>63</item>
+        <item>1</item>
+        <item>81</item>
+        <item>22</item>
+        <item>11</item>
+        <item>24</item>
+    </integer-array>
+
+    <!--  Driver Wins  -->
+    <integer-array name="drivers_wins_count_list">
+        <item>4</item>
+        <item>4</item>
+        <item>8</item>
+        <item>105</item>
+        <item>3</item>
+        <item>63</item>
+        <item>2</item>
+        <item>0</item>
+        <item>6</item>
+        <item>0</item>
+    </integer-array>
+
+    <!--  Driver Podiums  -->
+    <integer-array name="drivers_podiums_count_list">
+        <item>26</item>
+        <item>27</item>
+        <item>43</item>
+        <item>202</item>
+        <item>15</item>
+        <item>112</item>
+        <item>10</item>
+        <item>0</item>
+        <item>39</item>
+        <item>0</item>
+    </integer-array>
+
+    <!--  Driver Photo  -->
+    <integer-array name="data_photo">
+        <item>@drawable/lando_norris</item>
+        <item>@drawable/carlos_sainz_jr</item>
+        <item>@drawable/charles_leclerc</item>
+        <item>@drawable/lewis_hamilton</item>
+        <item>@drawable/george_russell</item>
+        <item>@drawable/max_verstappen</item>
+        <item>@drawable/oscar_piastri</item>
+        <item>@drawable/yuki_tsunoda</item>
+        <item>@drawable/sergio_perez</item>
+        <item>@drawable/zhou_guanyu</item>
+    </integer-array>
+
+    <!--  Driver Description  -->
+    <string-array name="drivers_descriptions_list">
+        <item>Lando Norris (born 13 November 1999) is a British racing driver, who competes in Formula One for McLaren. Norris was runner-up in the Formula One World Drivers Championship in 2024 with McLaren, and has won four Grands Prix across six seasons. Born in Bristol and raised in Glastonbury to an English father and Belgian mother, Norris began competitive kart racing aged seven. After a successful karting career—culminating in his victory at the direct-drive Karting World Championship in 2014—Norris graduated to junior formulae. He won his first title at the 2015 MSA Formula Championship with Carlin. He then won the Toyota Racing Series, Formula Renault Eurocup and Formula Renault NEC in 2016, receiving the Autosport BRDC Award that year. Norris won the FIA Formula 3 European Championship in 2017, and finished runner-up to George Russell in the FIA Formula 2 Championship in 2018, both with Carlin. A member of the McLaren Young Driver Programme since 2017, Norris joined McLaren in 2019 to partner Carlos Sainz Jr., making his Formula One debut at the Australian Grand Prix. He achieved his maiden podium finish and fastest lap at the season-opening Austrian Grand Prix in 2020, before achieving his maiden pole position at the Russian Grand Prix in 2021, amongst several further podiums. Following another podium at the Emilia Romagna Grand Prix in 2022, Norris took seven podiums across his 2023 campaign. In 2024, Norris took his maiden career win at the Miami Grand Prix, repeating this feat in the Netherlands, Singapore and Abu Dhabi as he finished runner-up to Max Verstappen in the World Drivers Championship.As of the 2024 Abu Dhabi Grand Prix, Norris has achieved four race wins, nine pole positions, 12 fastest laps and 26 podiums in Formula One. Norris is set to remain at McLaren until at least the end of the 2027 season.</item>
+        <item>Carlos Sainz Vázquez de Castro (born 1 September 1994) is a Spanish racing driver, who is set to compete in Formula One for Williams. Sainz has won four Formula One Grands Prix across 10 seasons. Born in Madrid, Sainz is the son of two-time World Rally Champion Carlos Sainz. Graduating from karting to junior formulae in 2010, Sainz won his first championship at the Formula Renault NEC in 2011 with Koiranen, finishing runner-up to Robin Frijns in the Eurocup that year. In 2012, Sainz contested British Formula 3, the Formula 3 Euro Series and FIA European Formula 3 with Carlin. Sainz progressed to the GP3 Series with Arden in 2013, finishing tenth in his rookie season. He then found success in the Formula Renault 3.5 Series, winning the championship in 2014 with DAMS.A member of the Red Bull Junior Team since 2010, Sainz signed with Toro Rosso in 2015, debuting alongside Max Verstappen. He remained at Toro Rosso until the 2017 United States Grand Prix, where he replaced Jolyon Palmer at Renault, having already signed with the team from 2018 onwards. Sainz moved to McLaren in 2019, ending his association with Red Bull. He took his maiden podium at the Brazilian Grand Prix that year, followed by another at the Italian Grand Prix in 2020. Sainz signed for Ferrari in 2021, replacing Sebastian Vettel to partner Charles Leclerc. After a winless debut season for Ferrari, Sainz took his maiden pole position and win at the British Grand Prix in 2022. He took further wins for Ferrari at Singapore in 2023, as well as Australia and Mexico City in 2024. As of the 2024 Abu Dhabi Grand Prix, Sainz has achieved four race wins, six pole positions, four fastest laps and 27 podiums in Formula One. Sainz left Ferrari at the end of the 2024 season to join Williams.</item>
+        <item>Charles Marc Hervé Perceval Leclerc (born 16 October 1997) is a Monégasque racing driver, who competes in Formula One for Ferrari. Leclerc was runner-up in the Formula One World Drivers Championship in 2022 with Ferrari, and has won eight Grands Prix across seven seasons. Born and raised in Monte Carlo, Leclerc began competitive kart racing aged seven. After a successful karting career—culminating in his victory at the junior direct-drive Karting World Cup in 2011—Leclerc graduated to junior formulae. Progressing directly to Formula Renault 2.0, he finished runner-up to Nyck de Vries in the Alps Series and achieved several podium finishes in the Eurocup. Leclerc graduated to FIA European Formula 3 in 2015, winning several races as he finished fourth in his rookie season. He won his first championship at the 2016 GP3 Series with ART. Leclerc then won the inaugural FIA Formula 2 Championship in 2017 with Prema, becoming the fourth driver to win the GP2/Formula 2 championship in their rookie season and breaking several records. Leclerc made his Formula One debut in 2018 with Sauber as part of the Ferrari Driver Academy, scoring several points finishes in the C37. He joined Ferrari for 2019 to partner Sebastian Vettel, and became the second-youngest driver to qualify on pole position at the Bahrain Grand Prix. Leclerc took his maiden career win in Belgium, before ending Ferraris record nine-year drought at the Italian Grand Prix, which saw him nicknamed il Predestinato in Italian media. After winless seasons for Ferrari in 2020 and 2021, Leclerc took several victories and finished runner-up to Max Verstappen in the 2022 World Drivers Championship. Following five pole positions and six podiums in his 2023 campaign, Leclerc won the Monaco Grand Prix in 2024, becoming the first Monégasque driver to win the race in 93 years; he achieved further victories in Italy and the United States as he finished third in the championship. As of the 2024 Abu Dhabi Grand Prix, Leclerc has achieved eight race wins, 26 pole positions, 10 fastest laps and 43 podiums in Formula One. Leclerc is set to remain at Ferrari until at least the end of the 2026 season. Outside of motor racing, Leclerc collaborated with pianist Sofiane Pamart on the extended play Dreamers (2024), which peaked at number two on the Billboard Classical Albums chart.</item>
+        <item>Sir Lewis Carl Davidson Hamilton (born 7 January 1985) is a British racing driver, who is set to compete in Formula One for Ferrari. Hamilton has won a joint-record seven Formula One World Drivers Championship titles—tied with Michael Schumacher—and holds the records for most wins (105), pole positions (104), and podium finishes (202), among others. Born and raised in Stevenage, Hamilton began his career in karting aged six, winning several national titles and attracting the attention of Ron Dennis, who signed him to the McLaren-Mercedes Young Driver Programme in 1998. After winning the direct-drive Karting World Cup and European Championship in 2000, Hamilton progressed to junior formulae, where his successes included winning the Formula 3 Euro Series and the GP2 Series. He subsequently signed for McLaren in 2007, becoming the first black driver to compete in Formula One at the Australian Grand Prix. In his rookie season, Hamilton won four Grands Prix and set several records as he finished runner-up to Kimi Räikkönen by one point. Hamilton won his maiden title in 2008, making a title-deciding overtake on the last lap of the last race of the season to become the then-youngest World Drivers Champion. The dominant Red Bull-Renault combination prevailed throughout his remaining four seasons at McLaren, with Hamilton achieving multiple race wins in each, including his involvement in a four-way title battle in 2010. Hamilton signed for Mercedes in 2013 to partner Nico Rosberg, ending his 15-year association with McLaren. Following his maiden victory with the team at the Hungarian Grand Prix, new engine regulations came into effect the following season, which saw Mercedes emerge as the dominant force in Formula One. Over the next three seasons, Hamilton and Rosberg won 51 of 59 Grands Prix amidst their fierce rivalry—widely known as The Silver War—with Hamilton winning the former titles in 2014 and 2015, and Rosberg winning the latter. After Rosbergs retirement, Hamilton twice overturned mid-season point deficits to Sebastian Vettel of Ferrari to claim his fourth and fifth titles in 2017 and 2018. Hamilton won his sixth title in 2019, before breaking several records across his 2020 campaign—including the all-time win record at the Portuguese Grand Prix—to equal Michael Schumachers record of seven World Drivers Championships. Hamilton became the first driver to surpass 100 race wins and pole positions in 2021, finishing runner-up to Max Verstappen amidst a controversial finish. Following winless campaigns in 2022 and 2023, Hamilton took his record-breaking ninth British Grand Prix victory in 2024, his twelfth and final season with Mercedes. Hamilton is set to join Ferrari from 2025 onwards. Hamilton has been credited with furthering Formula Ones global following by appealing to a broader audience outside the sport, in part due to his high-profile lifestyle, amongst his environmental and social activism. He has also become a prominent advocate in support of racial justice and increased diversity in motorsport. Hamilton was listed in the 2020 issue of Time as one of the 100 most influential people globally, and was knighted in the 2021 New Year Honours.</item>
+        <item>George William Russell born 15 February 1998 is a British racing driver, who competes in Formula One for Mercedes. Russell has won three Formula One Grands Prix across six seasons. Born and raised in Kings Lynn, Norfolk, Russell began competitive kart racing aged seven. After a successful karting career—culminating in back-to-back victories at the junior direct-drive Karting European Championship in 2011 and 2012—Russell graduated to junior formulae. He won his first title at the 2014 BRDC F4 Championship. He then won the 2017 GP3 Series and the 2018 FIA Formula 2 Championship back-to-back with ART, becoming the fifth driver to win the GP2/Formula 2 championship in their rookie season and the second driver to win both titles in their respective rookie seasons. A member of the Mercedes Junior Team since 2017, Russell signed for Williams in 2019 to partner Robert Kubica, making his Formula One debut at the Australian Grand Prix. He substituted for Lewis Hamilton at the 2020 Sakhir Grand Prix for Mercedes, but was denied victory due to a team error and a puncture after leading the majority of the race. Russell scored his maiden podium at the curtailed 2021 Belgian Grand Prix with Williams. In 2022, Russell replaced Valtteri Bottas at Mercedes to partner Hamilton; in his first season, Russell achieved his maiden pole position in Hungary and his maiden win in São Paulo, finishing fourth in the World Drivers Championship. After a winless season for Mercedes in 2023, Russell won the Austrian and Las Vegas Grands Prix in 2024, and became the first driver in 30 years to have been disqualified from a race win at the Belgian Grand Prix. As of the 2024 Abu Dhabi Grand Prix, Russell has achieved three race wins, five pole positions, eight fastest laps and 15 podiums in Formula One. Russell is set to remain at Mercedes until at least the end of the 2025 season.</item>
+        <item>Max Emilian Verstappen (born 30 September 1997) is a Dutch and Belgian racing driver, who competes under the Dutch flag in Formula One for Red Bull Racing. Verstappen has won four Formula One World Drivers Championship titles, which he won consecutively from 2021 to 2024 with Red Bull, and has won 63 Grands Prix across 10 seasons. Born in Hasselt and raised in Maaseik, Verstappen is the son of Dutch former Formula One driver Jos Verstappen and Belgian former kart racer Sophie Kumpen. After a successful karting career—culminating in his record-breaking 2013 season—Verstappen graduated to junior formulae. Progressing directly to FIA European Formula 3, Verstappen broke several records on his way to third in the championship in his rookie season with Van Amersfoort. A member of the Red Bull Junior Team, Verstappen signed for Toro Rosso in 2015, aged 17, becoming the youngest driver in Formula One history at the Australian Grand Prix. Following several points finishes in his debut season, Verstappen retained his seat for 2016 before being promoted to parent team Red Bull after four rounds. On debut for Red Bull, aged 18, Verstappen won the Spanish Grand Prix, becoming the youngest-ever driver to win a Formula One Grand Prix. Verstappen achieved multiple race wins in his 2017 and 2018 campaigns, before finishing third in both the 2019 and 2020 World Drivers Championships under Honda power. After winning 10 Grands Prix during the 2021 season—overtaking Lewis Hamilton on the last lap of the last race of the season—Verstappen won his maiden title, becoming the first World Drivers Champion from the Netherlands and the 34th overall. Verstappen won the next two championships in 2022 and 2023, overturning the largest points deficit in Formula One history in the former and breaking numerous records across both seasons. He secured his fourth consecutive title in 2024 after winning nine Grands Prix, including a widely acclaimed wet-weather performance in São Paulo, to become the first driver to win the championship driving for a third-placed constructor in 41 years As of the 2024 Abu Dhabi Grand Prix, Verstappen has achieved 63 race wins, 40 pole positions, 33 fastest laps and 112 podiums in Formula One. In addition to being the youngest Grand Prix winner, he holds several Formula One records, including the most wins in a season (19), the most podium finishes in a season (21), the most consecutive wins (10), and the most consecutive pole positions (8, shared with Ayrton Senna). Verstappen is set to remain at Red Bull until at least the end of the 2028 season. Verstappen was listed in the 2024 issue of Time as one of the 100 most influential people globally, and was appointed an Officer of the Order of Orange-Nassau in 2022.</item>
+        <item>Oscar Jack Piastri (born 6 April 2001) is an Australian racing driver, who competes in Formula One for McLaren. Piastri has won two Formula One Grands Prix across two seasons. Born and raised in Melbourne, Piastri began his career in radio-controlled racing before moving into karting aged nine. Graduating to junior formulae in 2016, Piastri won his first championship at the 2019 Formula Renault Eurocup with R-ace GP. He then won both the 2020 FIA Formula 3 and 2021 FIA Formula 2 Championships back-to-back with Prema, becoming the sixth driver in history to win the GP2/Formula 2 title in their rookie season. Piastri is the only driver in history to win Formula Renault, Formula Three and Formula Two—or equivalent—championships in successive seasons. A member of the Alpine Academy from 2020 to 2021, Piastri signed with McLaren in 2023 to partner Lando Norris, following a contract dispute with Alpine. He made his Formula One debut at the Bahrain Grand Prix, achieving his first career podium in his rookie season at the Japanese Grand Prix. Retaining his seat for 2024, Piastri achieved his maiden victory in Hungary, becoming the fifth Australian driver to win a Formula One Grand Prix, and repeated this feat in Azerbaijan. As of the 2024 Abu Dhabi Grand Prix, Piastri has achieved two race wins, three fastest laps and ten podiums in Formula One. Piastri is set to remain at McLaren until at least the end of the 2026 season.</item>
+        <item>Yuki Tsunoda (born 11 May 2000) is a Japanese racing driver, who competes in Formula One for Racing Bulls. Born in Sagamihara, Kanagawa, Tsunoda began competitive kart racing aged nine. Supported by Honda since 2016 through the Honda Formula Dream Project [ja], Tsunoda graduated to junior formulae the same year. He won his first full championship at the JAF Japan F4 East Series in 2017, winning the F4 Japanese Championship the next season. He progressed to FIA Formula 3 in 2019 with Jenzer, before finishing third in his rookie season of FIA Formula 2 in 2020 with Carlin. A member of the Red Bull Junior Team since 2019, Tsunoda signed for AlphaTauri in 2021, using a Honda powertrain alongside Pierre Gasly; he finished a career-best fourth at the Abu Dhabi Grand Prix that year. Tsunoda retained his seat at AlphaTauri in 2022 and 2023, partnering Nyck de Vries and Daniel Ricciardo in the latter. He remained at the team for the 2024 season as they re-branded to RB. Tsunoda is set to remain at RB until at least the end of the 2025 season.</item>
+        <item>Sergio Michel Checo Pérez Mendoza (born 26 January 1990) is a Mexican racing driver, who most recently competed in Formula One from 2011 to 2024. Pérez was runner-up in the Formula One World Drivers Championship in 2023 with Red Bull, and won six Grands Prix across 14 seasons. Born and raised in Guadalajara, Jalisco, Pérez began competitive kart racing aged six. Graduating to junior formulae in 2004, Pérez won his first championship in the national class of the 2007 British Formula 3 International Series. He progressed to the GP2 Series in 2009, finishing runner-up to Pastor Maldonado the following season with Addax. A member of the Ferrari Driver Academy since 2010, Pérez signed for Sauber in 2011 to partner Kamui Kobayashi, making his Formula One debut at the Australian Grand Prix, where both were disqualified for an illegal rear wing. Pérez found greater success for the team in 2012, achieving his maiden podium finish in Malaysia, and repeating this feat in Canada and Italy. For the 2013 season, Pérez moved to McLaren, replacing Lewis Hamilton to partner Jenson Button. After a podium-less season for McLaren, Pérez signed with Force India in 2014. He scored five podiums with the team before their re-branding to Racing Point mid-way through the 2018 season. Pérez placed fourth in the championship with Racing Point in 2020, taking his maiden win at the Sakhir Grand Prix, having been in last-place at the end of the first lap. Replaced by Sebastian Vettel at the re-branded Aston Martin for 2021, Pérez signed for Red Bull to partner Max Verstappen; he took his first victory for the team at the Azerbaijan Grand Prix. Pérez took further wins in 2022 at the Monaco and Singapore Grands Prix, amongst his maiden pole position in Saudi Arabia, finishing the season third overall. Pérez finished runner-up to Verstappen in the 2023 World Drivers Championship, after additional victories in Saudi Arabia and Azerbaijan. Following a winless 2024 campaign, Pérez and Red Bull mutually agreed to terminate his contract. Pérez achieved six race wins, three pole positions, 12 fastest laps and 39 podiums in Formula One. He holds the Formula One records for the most starts before a race win (190) and the most races before a pole position (219).</item>
+        <item>Zhou Guanyu (born 30 May 1999) is a Chinese racing driver, who most recently competed in Formula One from 2022 to 2024. Zhou remains the only Chinese driver to compete in Formula One. Born in Shanghai, Zhou began karting aged eight before moving to Sheffield in 2012 to compete internationally. Graduating to junior formulae in 2014, Zhou finished runner-up in the 2015 Italian F4 Championship. After three seasons in the FIA Formula 3 European Championship, as well as a development driver role in Formula E for Techeetah in 2017–18, Zhou competed in the FIA Formula 2 Championship from 2019 to 2021 for Virtuosi, finishing third in his final season. A member of the Ferrari Driver Academy from 2014 to 2018, and the Alpine Academy—formerly the Renault Sport Academy—from 2019 to 2021, he served as the test driver for Renault and Alpine in 2020 and 2021, respectively. Zhou signed for Alfa Romeo in 2022 to partner Valtteri Bottas, scoring his first career point on debut at the Bahrain Grand Prix. Retaining his seat for his 2023 campaign, he scored further points finishes in Australia, Spain and Qatar. He remained at the re-branded Sauber in 2024, where he scored the teams only points finish with the C44—at the Qatar Grand Prix—before leaving at the end of the season, having achieved two fastest laps and 16 championship points in Formula One.</item>
+    </string-array>
 </resources>
