@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
+    <color name="black">#1E1E1E</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="primary_red">#FF232B</color>
+    <color name="secondary_red">#AF0034</color>
+    <color name="border_red">#99AF0034</color>
+    <color name="card_background">#FFFFEE</color>
+    <color name="button_blue">#4CB5FF</color>
+    <color name="font_grey">#CFCFC4</color>
 </resources>
