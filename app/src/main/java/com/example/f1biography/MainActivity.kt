@@ -1,8 +1,10 @@
 package com.example.f1biography
 
 import android.os.Bundle
+import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -11,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView
 class MainActivity : AppCompatActivity() {
     private lateinit var rvDrivers: RecyclerView
     private val list = ArrayList<Driver>()
+    private lateinit var customToolbar: Toolbar
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -19,12 +22,14 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
         rvDrivers = findViewById(R.id.rv_drivers)
         rvDrivers.setHasFixedSize(true)
 
         list.addAll(getListDrivers())
         showRecyclerList()
+
+        customToolbar = findViewById(R.id.toolbar)
+        setSupportActionBar(customToolbar)
     }
 
     private fun showRecyclerList() {
