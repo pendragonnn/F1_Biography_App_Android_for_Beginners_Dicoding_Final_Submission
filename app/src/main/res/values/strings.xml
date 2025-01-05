@@ -9,6 +9,9 @@
     <string name="drivers_wins_count">Wins</string>
     <string name="drivers_podiums_count">Podiums</string>
     <string name="drivers_descriptions">Descriptions</string>
+    <string name="about_name">Wisnu Andika</string>
+    <string name="about_gmail">wisnuandika104@gmail.com</string>
+    <string name="about_description">A final-year Informatics student at UPN Veteran Jakarta, actively engaged in exploring Mobile Development through specialized online courses. Currently seeking an internship opportunity, particularly as a Front-End Web Developer or Mobile Developer, to pave the way for a career in the software development sector.</string>
 
     <!--  Driver Name  -->
     <string-array name="drivers_name_list">

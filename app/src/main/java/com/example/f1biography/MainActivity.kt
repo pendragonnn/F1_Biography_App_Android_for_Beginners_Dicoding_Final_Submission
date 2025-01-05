@@ -1,6 +1,8 @@
 package com.example.f1biography
 
+import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -14,6 +16,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var rvDrivers: RecyclerView
     private val list = ArrayList<Driver>()
     private lateinit var customToolbar: Toolbar
+    private lateinit var iconToolbar: ImageView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -30,6 +33,13 @@ class MainActivity : AppCompatActivity() {
 
         customToolbar = findViewById(R.id.toolbar)
         setSupportActionBar(customToolbar)
+
+        iconToolbar = findViewById(R.id.toolbar_icon)
+        iconToolbar.setOnClickListener{
+            val aboutIntent = Intent(this, AboutActivity::class.java)
+            startActivity(aboutIntent)
+            Log.d("MainActivity", "Toolbar: $customToolbar, Icon: $iconToolbar")
+        }
     }
 
     private fun showRecyclerList() {
