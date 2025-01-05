@@ -61,12 +61,12 @@ class DetailActivity : AppCompatActivity() {
             ivDetail.setImageResource(dataDriver.photo)
         }
         tvName.text = dataDriver?.name
-        tvBorn.text = "Born: ${dataDriver?.name.toString()}"
+        tvBorn.text = "Born: ${dataDriver?.born.toString()}"
         tvNationality.text = "Nationality: ${dataDriver?.nationality.toString()}"
         tvTeam.text = "Team: ${dataDriver?.team.toString()}"
         tvCarNumber.text = "Car Number: ${dataDriver?.carNumber.toString()}"
         tvWinCount.text = "Wins: ${dataDriver?.winCount.toString()}"
-        tvPodiumCount.text = "Born: ${dataDriver?.podiumCount.toString()}"
+        tvPodiumCount.text = "Podiums: ${dataDriver?.podiumCount.toString()}"
         tvDescription.text = dataDriver?.description
 
         btnShare.setOnClickListener {
