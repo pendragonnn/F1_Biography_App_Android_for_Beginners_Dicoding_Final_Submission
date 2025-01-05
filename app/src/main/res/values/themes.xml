@@ -2,8 +2,60 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.F1Biography" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+         <item name="colorPrimary">@color/primary_red</item>
     </style>
+
+    <!--  Item Row  -->
+    <style name="CardView.Item">
+        <item name="android:layout_marginHorizontal">16dp</item>
+        <item name="android:layout_marginVertical">8dp</item>
+        <item name="android:backgroundTint">@color/card_background</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextView.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/secondary_red</item>
+        <item name="android:fontWeight">700</item>
+    </style>
+
+    <style name="TextView.SubTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/font_grey</item>
+        <item name="android:fontWeight">400</item>
+    </style>
+
+    <style name="TextView.Thumbnail">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <!--  Item Row  -->
+
+    <!--  Detail Layout  -->
+    <style name="TextViewDetail">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="TextViewDetail.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/secondary_red</item>
+        <item name="android:fontWeight">700</item>
+    </style>
+    
+    <style name="DetailButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="backgroundTint">@color/button_blue</item>
+    </style>
+    <!--  Detail Layout  -->
 
     <style name="Theme.F1Biography" parent="Base.Theme.F1Biography" />
 </resources>
